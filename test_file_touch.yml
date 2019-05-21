@@ -12,3 +12,4 @@
         path: /home/ansibletower/mytest112233
         state: directory
         owner: parekh
+        group: parekh
