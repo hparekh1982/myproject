@@ -1,7 +1,7 @@
 - name: test file touch
-  gather_facts: no
-  hosts: 192.168.56.103
-  serial: 1
+  #gather_facts: no
+  hosts: all
+  #serial: 1
   #  vars_files:
   #  - vars/vars.yml
   tasks:
