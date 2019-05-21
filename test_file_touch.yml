@@ -1,6 +1,6 @@
 - name: test file touch
   #gather_facts: no
-  #hosts: all
+  hosts: myhost
   #serial: 1
   #  vars_files:
   #  - vars/vars.yml
