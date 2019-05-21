@@ -11,3 +11,5 @@
         state: directory
 #        owner: appuser
 #        group: appuser
+         owner : user
+         group : user
