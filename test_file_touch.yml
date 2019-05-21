@@ -7,9 +7,9 @@
   tasks:
     - name: Create Directory
       become: true
-      become_user: root
+      become_user: production1
       file:
-        path: /opt/mytest112233
+        path: /home/production1/mytest112233
         state: directory
-        owner: root
-        group: root
+        owner: production1
+        group: production1
