@@ -9,7 +9,7 @@
       become: true
       become_user: parekh
       file:
-        path: /home/parekh/mytest112233
+        path: /opt/mytest112233
         state: directory
         owner: parekh
         group: parekh
