@@ -6,10 +6,9 @@
   #  - vars/vars.yml
   tasks:
     - name: Create Directory
+      become: true
+      become_user: parekh
       file:
         path: /home/ansibletower/mytest112233
         state: directory
-#        owner: appuser
-#        group: appuser
-        owner : ansibletower
-        group : ansibletower
+        owner: parekh
